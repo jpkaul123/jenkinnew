@@ -8,6 +8,7 @@ public class Firstclass {
 		// TODO Auto-generated method stub
 		
 		ChromeDriver driver = new ChromeDriver();
+		Thread.sleep(5000);
 		driver.get("https://www.google.com");
 		
 
