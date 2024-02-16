@@ -8,7 +8,9 @@ public class Firstclass {
 		
 		ChromeDriver driver = new ChromeDriver();
 		Thread.sleep(5000);
+
 		driver.manage().window().maximize();
+
 		driver.get("https://www.google.com");
 		
 
